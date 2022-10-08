@@ -1,0 +1,21 @@
+ALGORITHM algorithm_name
+VAR
+    set_declarations
+    word : STRING
+    f : INTEGER
+BEGIN
+    set_instructions
+    write("word = ")
+    read(word);
+    until long (ch) > 0
+    while word[0] = " " do
+         word := read(word, 0, 1)
+    end-while
+    while word [long(-1)] = " " do     
+         ch := read(word, long(word)+1, long(word))
+    end-while
+    while  ("  ", word) > +1 do 
+         word := display [(word, ("  ", word), ("  ", word)]
+    end-while
+    write("the number of characters =", ch)
+END
